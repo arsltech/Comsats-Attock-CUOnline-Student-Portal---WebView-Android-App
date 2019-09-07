@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="3dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="CUOnline Student Portal"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/colorPrimary"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Version"
+                android:textSize="18sp"
+                android:textAlignment="center"
+
+                android:textColor="#949191"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.0"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:textColor="#2B2A2A"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Last Update"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="#949191"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="August 2019"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:textColor="#2B2A2A"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Developed By"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="#949191"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arslan Ali"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:textColor="#2B2A2A"
+                android:fontFamily="sans-serif-light"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/youtube"
+                    android:id="@+id/lgoo"
+                    />
+                <TextView
+                    android:id="@+id/txtChannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="youtube.com/arsltech"
+                    android:textSize="17dp"
+                    android:layout_toRightOf="@id/lgoo"
+                    android:layout_alignBottom="@id/lgoo"
+                    android:layout_marginBottom="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#6200EA"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="txtSub"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
